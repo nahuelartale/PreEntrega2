@@ -30,10 +30,10 @@ const carrito = new Carrito(); // Instancia del carrito
 
 // Crear productos y agregarlos al carrito
 const productos = [
-  new Producto('Ferrari', 200, '../imagenes/ferrari.jpg'), 
-  new Producto('Lambo', 100, '../imagenes/lambo.jpg'), 
-  new Producto('Macho Car', 999, '../imagenes/macho-car.jpg'),
-  new Producto('Porsche', 250, '../imagenes/porsche.jpg')  
+  new Producto('Ferrari', 200, './imagenes/ferrari.jpg'), 
+  new Producto('Lambo', 100, './imagenes/lambo.jpg'), 
+  new Producto('Macho Car', 999, './imagenes/macho-car.jpg'),
+  new Producto('Porsche', 250, './imagenes/porsche.jpg')  
 ];
 
 // Función para crear los contenedores de productos y agregarlos al DOM
